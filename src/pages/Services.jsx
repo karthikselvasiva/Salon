@@ -8,19 +8,19 @@ const Services = () => {
       category: "Styling & Cuts",
       icon: <Scissors size={32} />,
       items: [
-        { name: "Signature Cut", price: "From $80", desc: "Consultation, shampoo, custom cut, and blowout." },
-        { name: "Transformative Cut", price: "From $110", desc: "Major style change, deep conditioning, cut, and finish." },
-        { name: "Blowout & Style", price: "From $55", desc: "Shampoo, scalp massage, and professional blowout." },
-        { name: "Event Updo", price: "From $95", desc: "Custom styling for weddings, galas, and special occasions." }
+        { name: "Signature Cut", price: "From ₹6,500", desc: "Consultation, shampoo, custom cut, and blowout." },
+        { name: "Transformative Cut", price: "From ₹9,000", desc: "Major style change, deep conditioning, cut, and finish." },
+        { name: "Blowout & Style", price: "From ₹4,500", desc: "Shampoo, scalp massage, and professional blowout." },
+        { name: "Event Updo", price: "From ₹7,500", desc: "Custom styling for weddings, galas, and special occasions." }
       ]
     },
     {
       category: "Color & Highlights",
       icon: <Palette size={32} />,
       items: [
-        { name: "Single Process Color", price: "From $120", desc: "All-over permanent or semi-permanent color." },
-        { name: "Partial Balayage", price: "From $180", desc: "Hand-painted highlights for a natural, sun-kissed look." },
-        { name: "Full Balayage", price: "From $250", desc: "Comprehensive dimension and brightness." },
+        { name: "Single Process Color", price: "From ₹9,500", desc: "All-over permanent or semi-permanent color." },
+        { name: "Partial Balayage", price: "From ₹14,500", desc: "Hand-painted highlights for a natural, sun-kissed look." },
+        { name: "Full Balayage", price: "From ₹20,000", desc: "Comprehensive dimension and brightness." },
         { name: "Color Correction", price: "Consultation Required", desc: "Expert fixing of unwanted tones and banding." }
       ]
     },
@@ -28,9 +28,9 @@ const Services = () => {
       category: "Treatments",
       icon: <Sparkles size={32} />,
       items: [
-        { name: "Keratin Smoothing", price: "From $250", desc: "Frizz reduction and shine enhancement lasting up to 3 months." },
-        { name: "Root Care Detox", price: "From $65", desc: "Scalp exfoliation and deep purification." },
-        { name: "Hydration Mask", price: "From $45", desc: "Intense moisture infusion for dry, brittle hair." }
+        { name: "Keratin Smoothing", price: "From ₹20,000", desc: "Frizz reduction and shine enhancement lasting up to 3 months." },
+        { name: "Root Care Detox", price: "From ₹5,000", desc: "Scalp exfoliation and deep purification." },
+        { name: "Hydration Mask", price: "From ₹3,500", desc: "Intense moisture infusion for dry, brittle hair." }
       ]
     }
   ];
