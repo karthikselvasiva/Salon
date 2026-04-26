@@ -1,5 +1,6 @@
 import SEO from '../components/SEO';
 import { Award, Heart, Users } from 'lucide-react';
+import aboutImage from '../assets/salon_about.png';
 import './About.css';
 
 const About = () => {
@@ -29,7 +30,7 @@ const About = () => {
             </p>
           </div>
           <div className="story-image">
-            <div className="image-box-about"></div>
+            <img src={aboutImage} alt="Root Care Salon Interior" className="about-image" />
           </div>
         </div>
       </section>

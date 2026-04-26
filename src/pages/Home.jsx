@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Clock, CheckCircle } from 'lucide-react';
 import SEO from '../components/SEO';
+import heroImage from '../assets/salon_hero.png';
+import philosophyImage from '../assets/salon_philosophy.png';
 import './Home.css';
 
 const Home = () => {
@@ -26,10 +28,7 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image-wrapper">
-            <div className="hero-image-placeholder">
-              {/* Aesthetic CSS Pattern / Gradient */}
-              <div className="gradient-sphere"></div>
-            </div>
+            <img src={heroImage} alt="Luxury Salon Interior" className="hero-image" />
           </div>
         </div>
       </section>
@@ -61,7 +60,7 @@ const Home = () => {
       <section className="section highlight">
         <div className="container highlight-container">
           <div className="highlight-image">
-            <div className="image-box"></div>
+            <img src={philosophyImage} alt="Salon Philosophy" className="philosophy-image" />
           </div>
           <div className="highlight-content">
             <h2>The Root Care Philosophy</h2>
